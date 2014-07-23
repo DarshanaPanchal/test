@@ -1,6 +1,6 @@
-FOR MAC
 ANGULARJS UNIT TESTING:
 
+CONFIGURATION FOR MAC-
 
 - Make one folder named “Myapp” and copy the files: scope.html, controller.js and angular.min.js
 - Create directory “test” for creating test files (Myapp/test/*.js)
