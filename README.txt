@@ -1,13 +1,14 @@
 ANGULARJS UNIT TESTING:
 
-CONFIGURATION FOR MAC-
-
 - Make one folder named “Myapp” and copy the files: scope.html, controller.js and angular.min.js
 - Create directory “test” for creating test files (Myapp/test/*.js)
 - Copy test.js to Myapp/test/
 (Download these files from https://sites.google.com/a/auberginesolutions.com/ilab-information/testing)
 
 - Install node.js from http://nodejs.org/ or install through command line:
+	
+FOR MAC:
+	
 	- If you're using the excellent homebrew (http://github.com/mxcl/homebrew) package manager, you can install node with one command: “brew install node”
 	- Otherwise, follow the below steps:
 	- Install Xcode.(https://developer.apple.com/xcode/)
@@ -18,8 +19,39 @@ CONFIGURATION FOR MAC-
 	 ./configure
 	 make
 	 sudo make install
+
+For WINDOWS:
+	- Currently, you must use cygwin to install node. To do so, follow these steps:
+	- Install cygwin.
+	- Use setup.exe in the cygwin folder to install the following packages:
+	  devel -> openssl
+	  devel -> g++-gcc
+	  devel -> make
+	  python -> python
+	  devel -> git
+	- Open the cygwin command line with Start > Cygwin > Cygwin Bash Shell.
+	- Run the below commands to download and build node.
+	  git clone git://github.com/ry/node.git
+	  cd node
+	  ./configure
+	  make
+	  sudo make install
+
+For UBUNTU:
+
+	- Install the dependencies:
+	- sudo apt-get install g++ curl libssl-dev apache2-utils
+	- sudo apt-get install git-core
+	- Run the following commands:
+   	  git clone git://github.com/ry/node.git
+	  cd node
+	  ./configure
+	  make
+	  sudo make install
+
 	- To verify installation, type “node” through command line
 	- Now verify npm installation , type "npm" through command line
+
 	- Install karma through npm :
 	  First navigate to the app folder (cd C:/…/Myapp)
 	  Type  “npm install karma”
