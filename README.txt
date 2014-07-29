@@ -69,6 +69,7 @@ For UBUNTU:
   “npm install bower”
 
 Note: Bower requires Node and npm and Git.
+      This project already contains "bower_components", so no need to install bower again.
 	
 - Install angular-mocks through bower
   ”bower install angular-mocks”
