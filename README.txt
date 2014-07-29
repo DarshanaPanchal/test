@@ -49,31 +49,32 @@ For UBUNTU:
 	  make
 	  sudo make install
 
-	- To verify installation, type “node” through command line
-	- Now verify npm installation , type "npm" through command line
+- To verify installation, type “node” through command line
+- Now verify npm installation , type "npm" through command line
 
-	- Install karma through npm :
-	  First navigate to the app folder (cd C:/…/Myapp)
-	  Type  “npm install karma”
+- Install karma through npm :
+  First navigate to the app folder (cd C:/…/Myapp)
+  Type  “npm install karma”
 	
-	- Install jasmine
-	  Type “npm install karma-jasmine”
+- Install jasmine
+  Type “npm install karma-jasmine”
+
+- Install karma chrome launcher to run the test
+  “npm install karma-chrome-launcher”
 	
-	- Install karma chrome launcher to run the test
-	  “npm install karma-chrome-launcher”
+- Install karma Firefox launcher to run the test
+  “npm install karma-firefox-launcher “
 	
-	- Install karma Firefox launcher to run the test
-	  “npm install karma-firefox-launcher “
-	
-	- Install bower for plugins
-	  “npm install bower”
+- Install bower for plugins
+  “npm install bower”
+
 Note: Bower requires Node and npm and Git.
 	
-	- Install angular-mocks through bower
-	  ”bower install angular-mocks”
-	
-	- To install other dependencies
-	  “npm install”
+- Install angular-mocks through bower
+  ”bower install angular-mocks”
+
+- To install other dependencies
+  “npm install”
  
 
 - To run the App, you just need to run the “scope.html” file present in the Myapp folder.
