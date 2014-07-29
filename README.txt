@@ -70,7 +70,11 @@ For UBUNTU:
 Note: Bower requires Node and npm and Git.
 	
 	- Install angular-mocks through bower
-	  ”bower install angular-mocks” 
+	  ”bower install angular-mocks”
+	
+	- To install other dependencies
+	  “npm install”
+ 
 
 - To run the App, you just need to run the “scope.html” file present in the Myapp folder.
 - To run the test-cases, you need to follow the steps given below:
