@@ -2,9 +2,9 @@ var myModule = angular.module('app',[]);
 
 myModule.controller('titleCtrl', function($scope)
 {
-	$scope.title="Hello Darshana!";
+	$scope.title="Hello Friends!";
 	$scope.changeIt = function()
 	{
-		$scope.title = "Hi Darshana!";
+		$scope.title = "How are you?";
 	};
 });
