@@ -18,13 +18,13 @@ describe('titleCtrl', function()
 	}));
 	it('Intially has a title', function()
 	{
-		expect($scope.title).toBe("Hello Darshana!");
+		expect($scope.title).toBe("Hello Friends!");
 		//assert.equal($scope.title,"Hello Darshana!");
 	});
 	it('Clicking the button changes the title', function()
 	{
 		$scope.changeIt();
 		//assert.equal($scope.title,"Hi Darshana!");
-		expect($scope.title).toBe("Hi Darshana!");
+		expect($scope.title).toBe("How are you?");
 	});
 });
