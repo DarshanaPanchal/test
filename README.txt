@@ -3,8 +3,8 @@ ANGULARJS UNIT TESTING:
 - Make one folder named “Myapp” and copy the files: scope.html, controller.js and angular.min.js
 - Create directory “test” for creating test files (Myapp/test/*.js)
 - Copy test.js to Myapp/test/
-(Download these files from https://sites.google.com/a/auberginesolutions.com/ilab-information/testing)
-
+ or from here (https://github.com/AubergineSolutions/AngularJSUnitTesting)
+- You can also clone this project(only if you have git installed) by running: git clone https://github.com/AubergineSolutions/AngularJSUnitTesting.git
 - Install node.js from http://nodejs.org/ or install through command line:
 	
 FOR MAC:
@@ -100,3 +100,13 @@ Config file generated at "C:\...\Myapp\karma.conf.js".
 
 - Now run the command “karma start karma.conf.js” to run the config file (which will run the test-cases present in the test.js file).
 
+
+NOTE:
+-Before running the testcases, the below points should be kept in mind:
+	-> The controller should be defined after the instantiation of the module, otherwise it will result to the following error: 
+Error: [$injector:nomod] Module 'myModule' is not available!
+	-> The module being loaded in your test file should be present in the javascript file, which uses the controller for running the testcases.
+If module is not properly loaded than it will result to the error: 
+AngularJS Unit Testing - TypeError: Cannot read property of null
+	-> angular and angular-mocks file should be of same version
+	-> Multiple loading or duplication of angular.min.js file will result in incorrect module dependency
