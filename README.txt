@@ -1,7 +1,7 @@
 ANGULARJS UNIT TESTING:
 
-- Make one folder named â€œMyappâ€ and copy the files: scope.html, controller.js and angular.min.js
-- Create directory â€œtestâ€ for creating test files (Myapp/test/*.js)
+- Make one folder named “Myapp” and copy the files: scope.html, controller.js and angular.min.js
+- Create directory “test” for creating test files (Myapp/test/*.js)
 - Copy test.js to Myapp/test/
  or from here (https://github.com/AubergineSolutions/AngularJSUnitTesting)
 - You can also clone this project(only if you have git installed) by running: git clone https://github.com/AubergineSolutions/AngularJSUnitTesting.git
@@ -9,7 +9,7 @@ ANGULARJS UNIT TESTING:
 	
 FOR MAC:
 	
-	- If you're using the excellent homebrew (http://github.com/mxcl/homebrew) package manager, you can install node with one command: â€œbrew install nodeâ€
+	- If you're using the excellent homebrew (http://github.com/mxcl/homebrew) package manager, you can install node with one command: “brew install node”
 	- Otherwise, follow the below steps:
 	- Install Xcode.(https://developer.apple.com/xcode/)
 	- Install git.(https://help.github.com/mac-git-installation/)
@@ -49,35 +49,35 @@ For UBUNTU:
 	  make
 	  sudo make install
 
-- To verify installation, type â€œnodeâ€ through command line
+- To verify installation, type “node” through command line
 - Now verify npm installation , type "npm" through command line
 
 - Install karma through npm :
-  First navigate to the app folder (cd C:/â€¦/Myapp)
-  Type  â€œnpm install karmaâ€
+  First navigate to the app folder (cd C:/…/Myapp)
+  Type  “npm install karma”
 	
 - Install jasmine
-  Type â€œnpm install karma-jasmineâ€
+  Type “npm install karma-jasmine”
 
 - Install karma chrome launcher to run the test
-  â€œnpm install karma-chrome-launcherâ€
+  “npm install karma-chrome-launcher”
 	
 - Install karma Firefox launcher to run the test
-  â€œnpm install karma-firefox-launcher â€œ
+  “npm install karma-firefox-launcher “
 	
 - Install bower for plugins
-  â€œnpm install bowerâ€
+  “npm install bower”
 
 Note: Bower requires Node and npm and Git.
       
 - Install angular-mocks through bower
-  â€bower install angular-mocksâ€
+  ”bower install angular-mocks”
 
-- To run the App, you just need to run the â€œscope.htmlâ€ file present in the Myapp folder.
+- To run the App, you just need to run the “scope.html” file present in the Myapp folder.
 - To run the test-cases, you need to follow the steps given below:
 	- Create a config file [karma.conf.js] in the app folder :-
-	  -Using command prompt navigate to the folder in which your app is present (e.g: cd C:/â€¦/Myapp)
-	  -Now run the command â€œkarma initâ€, and follow the steps given below: 
+	  -Using command prompt navigate to the folder in which your app is present (e.g: cd C:/…/Myapp)
+	  -Now run the command “karma init”, and follow the steps given below: 
 	
 	   1. Which testing framework do you want to use? Press tab to list possible options. Enter to move to the next question.
 > jasmine
@@ -98,7 +98,7 @@ Note: Bower requires Node and npm and Git.
 
 Config file generated at "C:\...\Myapp\karma.conf.js".
 
-- Now run the command â€œkarma start karma.conf.jsâ€ to run the config file (which will run the test-cases present in the test.js file).
+- Now run the command “karma start karma.conf.js” to run the config file (which will run the test-cases present in the test.js file).
 
 
 NOTE:

@@ -24,4 +24,8 @@ describe('titleCtrl', function()
 		$scope.changeIt();
 		expect($scope.title).toBe("How are you?");
 	});
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> ff0d3b821d04ca0e22e5d80e3965fe391c801e42
